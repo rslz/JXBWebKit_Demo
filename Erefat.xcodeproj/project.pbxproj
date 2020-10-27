@@ -1,0 +1,765 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587E4A1792D790CC15CCC5E1 /* Pods_Erefat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5293F2E20F5B6576F4A21603 /* Pods_Erefat.framework */; };
+		878473A5AB941214DEC16AB9 /* Pods_ErefatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2B1B236F219C8BCC39F910 /* Pods_ErefatTests.framework */; };
+		9477050DED7CBBB58D3939B1 /* Pods_Erefat_ErefatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA59817E6525322E14AE1CEF /* Pods_Erefat_ErefatUITests.framework */; };
+		E29376F924B19E7500247D4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E29376F824B19E7500247D4D /* AppDelegate.m */; };
+		E29376FC24B19E7500247D4D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E29376FB24B19E7500247D4D /* SceneDelegate.m */; };
+		E293770224B19E7500247D4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E293770024B19E7500247D4D /* Main.storyboard */; };
+		E293770724B19E7800247D4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E293770624B19E7800247D4D /* Assets.xcassets */; };
+		E293770A24B19E7800247D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E293770824B19E7800247D4D /* LaunchScreen.storyboard */; };
+		E293770D24B19E7800247D4D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E293770C24B19E7800247D4D /* main.m */; };
+		E293771724B19E7800247D4D /* ErefatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E293771624B19E7800247D4D /* ErefatTests.m */; };
+		E293772224B19E7900247D4D /* ErefatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E293772124B19E7900247D4D /* ErefatUITests.m */; };
+		E293773224B1A86900247D4D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E293773124B1A86900247D4D /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E293771324B19E7800247D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E29376EC24B19E7500247D4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29376F324B19E7500247D4D;
+			remoteInfo = Erefat;
+		};
+		E293771E24B19E7900247D4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E29376EC24B19E7500247D4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29376F324B19E7500247D4D;
+			remoteInfo = Erefat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		143D37427BE14E5D61D865F4 /* Pods-Erefat-ErefatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erefat-ErefatUITests.debug.xcconfig"; path = "Target Support Files/Pods-Erefat-ErefatUITests/Pods-Erefat-ErefatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A29F732FDFE2554CE7D2847 /* Pods-Erefat-ErefatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erefat-ErefatUITests.release.xcconfig"; path = "Target Support Files/Pods-Erefat-ErefatUITests/Pods-Erefat-ErefatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5293F2E20F5B6576F4A21603 /* Pods_Erefat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Erefat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76FF5C55F1B1C911F4E172A3 /* Pods-ErefatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErefatTests.release.xcconfig"; path = "Target Support Files/Pods-ErefatTests/Pods-ErefatTests.release.xcconfig"; sourceTree = "<group>"; };
+		A870CF52D7A5F644C06A2EC9 /* Pods-ErefatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ErefatTests.debug.xcconfig"; path = "Target Support Files/Pods-ErefatTests/Pods-ErefatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C851C0AD64E88EF5B8F8DB6A /* Pods-Erefat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erefat.release.xcconfig"; path = "Target Support Files/Pods-Erefat/Pods-Erefat.release.xcconfig"; sourceTree = "<group>"; };
+		D7BCC525FBE72AF15A7CC395 /* Pods-Erefat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Erefat.debug.xcconfig"; path = "Target Support Files/Pods-Erefat/Pods-Erefat.debug.xcconfig"; sourceTree = "<group>"; };
+		E29376F424B19E7500247D4D /* Erefat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Erefat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29376F724B19E7500247D4D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E29376F824B19E7500247D4D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E29376FA24B19E7500247D4D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E29376FB24B19E7500247D4D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E293770124B19E7500247D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E293770424B19E7500247D4D /* Erefat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Erefat.xcdatamodel; sourceTree = "<group>"; };
+		E293770624B19E7800247D4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E293770924B19E7800247D4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E293770B24B19E7800247D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E293770C24B19E7800247D4D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E293771224B19E7800247D4D /* ErefatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErefatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E293771624B19E7800247D4D /* ErefatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErefatTests.m; sourceTree = "<group>"; };
+		E293771824B19E7800247D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E293771D24B19E7900247D4D /* ErefatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErefatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E293772124B19E7900247D4D /* ErefatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ErefatUITests.m; sourceTree = "<group>"; };
+		E293772324B19E7900247D4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E293772F24B1A5C300247D4D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E293773024B1A86900247D4D /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		E293773124B1A86900247D4D /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		EE2B1B236F219C8BCC39F910 /* Pods_ErefatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErefatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA59817E6525322E14AE1CEF /* Pods_Erefat_ErefatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Erefat_ErefatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E29376F124B19E7500247D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				587E4A1792D790CC15CCC5E1 /* Pods_Erefat.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E293770F24B19E7800247D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878473A5AB941214DEC16AB9 /* Pods_ErefatTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E293771A24B19E7900247D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9477050DED7CBBB58D3939B1 /* Pods_Erefat_ErefatUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30342AC843FBA9883C302466 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7BCC525FBE72AF15A7CC395 /* Pods-Erefat.debug.xcconfig */,
+				C851C0AD64E88EF5B8F8DB6A /* Pods-Erefat.release.xcconfig */,
+				143D37427BE14E5D61D865F4 /* Pods-Erefat-ErefatUITests.debug.xcconfig */,
+				2A29F732FDFE2554CE7D2847 /* Pods-Erefat-ErefatUITests.release.xcconfig */,
+				A870CF52D7A5F644C06A2EC9 /* Pods-ErefatTests.debug.xcconfig */,
+				76FF5C55F1B1C911F4E172A3 /* Pods-ErefatTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7DBF94E297C1C1777AD952A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5293F2E20F5B6576F4A21603 /* Pods_Erefat.framework */,
+				FA59817E6525322E14AE1CEF /* Pods_Erefat_ErefatUITests.framework */,
+				EE2B1B236F219C8BCC39F910 /* Pods_ErefatTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E29376EB24B19E7500247D4D = {
+			isa = PBXGroup;
+			children = (
+				E29376F624B19E7500247D4D /* Erefat */,
+				E293771524B19E7800247D4D /* ErefatTests */,
+				E293772024B19E7900247D4D /* ErefatUITests */,
+				E29376F524B19E7500247D4D /* Products */,
+				30342AC843FBA9883C302466 /* Pods */,
+				7DBF94E297C1C1777AD952A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E29376F524B19E7500247D4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E29376F424B19E7500247D4D /* Erefat.app */,
+				E293771224B19E7800247D4D /* ErefatTests.xctest */,
+				E293771D24B19E7900247D4D /* ErefatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E29376F624B19E7500247D4D /* Erefat */ = {
+			isa = PBXGroup;
+			children = (
+				E29376F724B19E7500247D4D /* AppDelegate.h */,
+				E29376F824B19E7500247D4D /* AppDelegate.m */,
+				E29376FA24B19E7500247D4D /* SceneDelegate.h */,
+				E29376FB24B19E7500247D4D /* SceneDelegate.m */,
+				E293773024B1A86900247D4D /* WebViewController.h */,
+				E293773124B1A86900247D4D /* WebViewController.m */,
+				E293770024B19E7500247D4D /* Main.storyboard */,
+				E293770624B19E7800247D4D /* Assets.xcassets */,
+				E293770824B19E7800247D4D /* LaunchScreen.storyboard */,
+				E293770B24B19E7800247D4D /* Info.plist */,
+				E293770C24B19E7800247D4D /* main.m */,
+				E293772F24B1A5C300247D4D /* PrefixHeader.pch */,
+				E293770324B19E7500247D4D /* Erefat.xcdatamodeld */,
+			);
+			path = Erefat;
+			sourceTree = "<group>";
+		};
+		E293771524B19E7800247D4D /* ErefatTests */ = {
+			isa = PBXGroup;
+			children = (
+				E293771624B19E7800247D4D /* ErefatTests.m */,
+				E293771824B19E7800247D4D /* Info.plist */,
+			);
+			path = ErefatTests;
+			sourceTree = "<group>";
+		};
+		E293772024B19E7900247D4D /* ErefatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E293772124B19E7900247D4D /* ErefatUITests.m */,
+				E293772324B19E7900247D4D /* Info.plist */,
+			);
+			path = ErefatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E29376F324B19E7500247D4D /* Erefat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E293772624B19E7900247D4D /* Build configuration list for PBXNativeTarget "Erefat" */;
+			buildPhases = (
+				2D98DE625C1772200EA8578B /* [CP] Check Pods Manifest.lock */,
+				E29376F024B19E7500247D4D /* Sources */,
+				E29376F124B19E7500247D4D /* Frameworks */,
+				E29376F224B19E7500247D4D /* Resources */,
+				69C36BF5D185DF2C5E941B6D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Erefat;
+			productName = Erefat;
+			productReference = E29376F424B19E7500247D4D /* Erefat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E293771124B19E7800247D4D /* ErefatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E293772924B19E7900247D4D /* Build configuration list for PBXNativeTarget "ErefatTests" */;
+			buildPhases = (
+				D5F836CFCFBBF39BA6D507FF /* [CP] Check Pods Manifest.lock */,
+				E293770E24B19E7800247D4D /* Sources */,
+				E293770F24B19E7800247D4D /* Frameworks */,
+				E293771024B19E7800247D4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E293771424B19E7800247D4D /* PBXTargetDependency */,
+			);
+			name = ErefatTests;
+			productName = ErefatTests;
+			productReference = E293771224B19E7800247D4D /* ErefatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E293771C24B19E7900247D4D /* ErefatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E293772C24B19E7900247D4D /* Build configuration list for PBXNativeTarget "ErefatUITests" */;
+			buildPhases = (
+				424A0F53CA33B616166B81F6 /* [CP] Check Pods Manifest.lock */,
+				E293771924B19E7900247D4D /* Sources */,
+				E293771A24B19E7900247D4D /* Frameworks */,
+				E293771B24B19E7900247D4D /* Resources */,
+				66359489079E082DE5739C78 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E293771F24B19E7900247D4D /* PBXTargetDependency */,
+			);
+			name = ErefatUITests;
+			productName = ErefatUITests;
+			productReference = E293771D24B19E7900247D4D /* ErefatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E29376EC24B19E7500247D4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = rslzsy;
+				TargetAttributes = {
+					E29376F324B19E7500247D4D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					E293771124B19E7800247D4D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E29376F324B19E7500247D4D;
+					};
+					E293771C24B19E7900247D4D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = E29376F324B19E7500247D4D;
+					};
+				};
+			};
+			buildConfigurationList = E29376EF24B19E7500247D4D /* Build configuration list for PBXProject "Erefat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E29376EB24B19E7500247D4D;
+			productRefGroup = E29376F524B19E7500247D4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E29376F324B19E7500247D4D /* Erefat */,
+				E293771124B19E7800247D4D /* ErefatTests */,
+				E293771C24B19E7900247D4D /* ErefatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E29376F224B19E7500247D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E293770A24B19E7800247D4D /* LaunchScreen.storyboard in Resources */,
+				E293770724B19E7800247D4D /* Assets.xcassets in Resources */,
+				E293770224B19E7500247D4D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E293771024B19E7800247D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E293771B24B19E7900247D4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D98DE625C1772200EA8578B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Erefat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		424A0F53CA33B616166B81F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Erefat-ErefatUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66359489079E082DE5739C78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Erefat-ErefatUITests/Pods-Erefat-ErefatUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Erefat-ErefatUITests/Pods-Erefat-ErefatUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Erefat-ErefatUITests/Pods-Erefat-ErefatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69C36BF5D185DF2C5E941B6D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Erefat/Pods-Erefat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Erefat/Pods-Erefat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Erefat/Pods-Erefat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F836CFCFBBF39BA6D507FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ErefatTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E29376F024B19E7500247D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E293770D24B19E7800247D4D /* main.m in Sources */,
+				E293773224B1A86900247D4D /* WebViewController.m in Sources */,
+				E29376F924B19E7500247D4D /* AppDelegate.m in Sources */,
+				E29376FC24B19E7500247D4D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E293770E24B19E7800247D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E293771724B19E7800247D4D /* ErefatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E293771924B19E7900247D4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E293772224B19E7900247D4D /* ErefatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E293771424B19E7800247D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E29376F324B19E7500247D4D /* Erefat */;
+			targetProxy = E293771324B19E7800247D4D /* PBXContainerItemProxy */;
+		};
+		E293771F24B19E7900247D4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E29376F324B19E7500247D4D /* Erefat */;
+			targetProxy = E293771E24B19E7900247D4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E293770024B19E7500247D4D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E293770124B19E7500247D4D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E293770824B19E7800247D4D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E293770924B19E7800247D4D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E293772424B19E7900247D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E293772524B19E7900247D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E293772724B19E7900247D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7BCC525FBE72AF15A7CC395 /* Pods-Erefat.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG4848HLMZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Erefat/PrefixHeader.pch;
+				INFOPLIST_FILE = Erefat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyaogong.xyg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E293772824B19E7900247D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C851C0AD64E88EF5B8F8DB6A /* Pods-Erefat.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SG4848HLMZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Erefat/PrefixHeader.pch;
+				INFOPLIST_FILE = Erefat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyaogong.xyg;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E293772A24B19E7900247D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A870CF52D7A5F644C06A2EC9 /* Pods-ErefatTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZPZBARZFE;
+				INFOPLIST_FILE = ErefatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyaogong.xyg.ErefatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Erefat.app/Erefat";
+			};
+			name = Debug;
+		};
+		E293772B24B19E7900247D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76FF5C55F1B1C911F4E172A3 /* Pods-ErefatTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZPZBARZFE;
+				INFOPLIST_FILE = ErefatTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyaogong.xyg.ErefatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Erefat.app/Erefat";
+			};
+			name = Release;
+		};
+		E293772D24B19E7900247D4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 143D37427BE14E5D61D865F4 /* Pods-Erefat-ErefatUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZPZBARZFE;
+				INFOPLIST_FILE = ErefatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyaogong.xyg.ErefatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Erefat;
+			};
+			name = Debug;
+		};
+		E293772E24B19E7900247D4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A29F732FDFE2554CE7D2847 /* Pods-Erefat-ErefatUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5ZPZBARZFE;
+				INFOPLIST_FILE = ErefatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyaogong.xyg.ErefatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Erefat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E29376EF24B19E7500247D4D /* Build configuration list for PBXProject "Erefat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E293772424B19E7900247D4D /* Debug */,
+				E293772524B19E7900247D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E293772624B19E7900247D4D /* Build configuration list for PBXNativeTarget "Erefat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E293772724B19E7900247D4D /* Debug */,
+				E293772824B19E7900247D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E293772924B19E7900247D4D /* Build configuration list for PBXNativeTarget "ErefatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E293772A24B19E7900247D4D /* Debug */,
+				E293772B24B19E7900247D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E293772C24B19E7900247D4D /* Build configuration list for PBXNativeTarget "ErefatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E293772D24B19E7900247D4D /* Debug */,
+				E293772E24B19E7900247D4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E293770324B19E7500247D4D /* Erefat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E293770424B19E7500247D4D /* Erefat.xcdatamodel */,
+			);
+			currentVersion = E293770424B19E7500247D4D /* Erefat.xcdatamodel */;
+			path = Erefat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E29376EC24B19E7500247D4D /* Project object */;
+}
