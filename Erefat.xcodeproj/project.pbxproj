@@ -19,6 +19,7 @@
 		E293771724B19E7800247D4D /* ErefatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E293771624B19E7800247D4D /* ErefatTests.m */; };
 		E293772224B19E7900247D4D /* ErefatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E293772124B19E7900247D4D /* ErefatUITests.m */; };
 		E293773224B1A86900247D4D /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E293773124B1A86900247D4D /* WebViewController.m */; };
+		F3AC2CCF254D361700E7C845 /* WebViewController+web.m in Sources */ = {isa = PBXBuildFile; fileRef = F3AC2CCE254D361700E7C845 /* WebViewController+web.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,10 @@
 		E293773024B1A86900247D4D /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		E293773124B1A86900247D4D /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		EE2B1B236F219C8BCC39F910 /* Pods_ErefatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErefatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3AC2CCB254D35CA00E7C845 /* NSObject+webTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+webTest.h"; sourceTree = "<group>"; };
+		F3AC2CCC254D35F100E7C845 /* WebViewController+kflslf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebViewController+kflslf.h"; sourceTree = "<group>"; };
+		F3AC2CCD254D361700E7C845 /* WebViewController+web.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebViewController+web.h"; sourceTree = "<group>"; };
+		F3AC2CCE254D361700E7C845 /* WebViewController+web.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WebViewController+web.m"; sourceTree = "<group>"; };
 		FA59817E6525322E14AE1CEF /* Pods_Erefat_ErefatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Erefat_ErefatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -152,6 +157,10 @@
 				E29376FB24B19E7500247D4D /* SceneDelegate.m */,
 				E293773024B1A86900247D4D /* WebViewController.h */,
 				E293773124B1A86900247D4D /* WebViewController.m */,
+				F3AC2CCB254D35CA00E7C845 /* NSObject+webTest.h */,
+				F3AC2CCC254D35F100E7C845 /* WebViewController+kflslf.h */,
+				F3AC2CCD254D361700E7C845 /* WebViewController+web.h */,
+				F3AC2CCE254D361700E7C845 /* WebViewController+web.m */,
 				E293770024B19E7500247D4D /* Main.storyboard */,
 				E293770624B19E7800247D4D /* Assets.xcassets */,
 				E293770824B19E7800247D4D /* LaunchScreen.storyboard */,
@@ -421,6 +430,7 @@
 			files = (
 				E293770D24B19E7800247D4D /* main.m in Sources */,
 				E293773224B1A86900247D4D /* WebViewController.m in Sources */,
+				F3AC2CCF254D361700E7C845 /* WebViewController+web.m in Sources */,
 				E29376F924B19E7500247D4D /* AppDelegate.m in Sources */,
 				E29376FC24B19E7500247D4D /* SceneDelegate.m in Sources */,
 			);
