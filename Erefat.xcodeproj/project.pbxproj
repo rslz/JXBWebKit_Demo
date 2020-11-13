@@ -69,7 +69,6 @@
 		E293773124B1A86900247D4D /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		EE2B1B236F219C8BCC39F910 /* Pods_ErefatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ErefatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3AC2CCB254D35CA00E7C845 /* NSObject+webTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+webTest.h"; sourceTree = "<group>"; };
-		F3AC2CCC254D35F100E7C845 /* WebViewController+kflslf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebViewController+kflslf.h"; sourceTree = "<group>"; };
 		F3AC2CCD254D361700E7C845 /* WebViewController+web.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebViewController+web.h"; sourceTree = "<group>"; };
 		F3AC2CCE254D361700E7C845 /* WebViewController+web.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WebViewController+web.m"; sourceTree = "<group>"; };
 		FA59817E6525322E14AE1CEF /* Pods_Erefat_ErefatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Erefat_ErefatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,7 +157,6 @@
 				E293773024B1A86900247D4D /* WebViewController.h */,
 				E293773124B1A86900247D4D /* WebViewController.m */,
 				F3AC2CCB254D35CA00E7C845 /* NSObject+webTest.h */,
-				F3AC2CCC254D35F100E7C845 /* WebViewController+kflslf.h */,
 				F3AC2CCD254D361700E7C845 /* WebViewController+web.h */,
 				F3AC2CCE254D361700E7C845 /* WebViewController+web.m */,
 				E293770024B19E7500247D4D /* Main.storyboard */,
