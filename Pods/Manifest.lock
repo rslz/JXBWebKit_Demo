@@ -1,5 +1,5 @@
 PODS:
-  - JXBWebKit (1.2.0)
+  - JXBWebKit (1.2.1)
 
 DEPENDENCIES:
   - JXBWebKit (~> 1.2.0)
@@ -9,8 +9,8 @@ SPEC REPOS:
     - JXBWebKit
 
 SPEC CHECKSUMS:
-  JXBWebKit: 170bd0fb1bbbb90edf1deffb772ed51dd3110cdd
+  JXBWebKit: 9b8c67238e11371c5a91bf55ecd316df7ac84ca6
 
 PODFILE CHECKSUM: d8824d0e1f68af5e8943aba1a3ba86fd3edb6f76
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.0

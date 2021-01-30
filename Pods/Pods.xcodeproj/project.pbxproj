@@ -3,44 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C6DE05BFB3507EF350DBDAD40FEE40F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1CC309301B105B45E24B770DABEDC6E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		26155FABA4804364C6E444C6E78E6FD0 /* WKMessageHandlerDispatch.m in Sources */ = {isa = PBXBuildFile; fileRef = FEC1940A060B24CDC7A06193677E0297 /* WKMessageHandlerDispatch.m */; };
 		2687FABFA108BC888B4F7B4FE7B844DB /* WKMessageHandlerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D36E58E8E4A528994059CEFA4DA7058 /* WKMessageHandlerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		279E12B5281E4539EEB64077E8D3F7D6 /* WKWebView+SyncUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AFE23A458AE6F6FFC8841D49B91FE37 /* WKWebView+SyncUserAgent.m */; };
 		2F2D6BD54F5E5C949691DD0710ACF953 /* WKWebView+AOP.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D1C0D5E0ABC07380CF107487B4FE6B /* WKWebView+AOP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3250D24CFB7C10F2CEDF1AEDE20C52BB /* Pods-Erefat-ErefatUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95DC393789B052E5D94E2C9289F64804 /* Pods-Erefat-ErefatUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38BFFBC68E93C970BBFE586F4D49D3DE /* Pods-ErefatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14A5B0570DB961040C9154A4C73C34 /* Pods-ErefatTests-dummy.m */; };
 		3DB689D3219E0907FFFC0B0385D16190 /* JXBWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB7028F67AFDC3AC35D75A5590CEA739 /* JXBWebViewController.m */; };
-		3E24C8CE88459C231EC63CDAEA20F881 /* Pods-Erefat-ErefatUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95DC393789B052E5D94E2C9289F64804 /* Pods-Erefat-ErefatUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		434D6DBA4746AE2D51300A7312B9832D /* UIProgressView+WKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 09F0FDD8C81DA0CD5DA042569D08B2C6 /* UIProgressView+WKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		43C782F1A4283E6280464C49929978EF /* Pods-Erefat-ErefatUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 425FE703F8D5B20BFE54D0EE39FBE8D6 /* Pods-Erefat-ErefatUITests-dummy.m */; };
+		43BDBEF3468061E923D5C00ED1DCA49C /* Pods-Erefat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61595E3B8D951167DDFA6B22A7F8BB3C /* Pods-Erefat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		440C60D5CC5E1234460873AD179FE6D2 /* WKWebView+ClearWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CEE3AB6326D68E3ABD0751E1516E5A /* WKWebView+ClearWebCache.m */; };
 		4B26AAEAE6018792F5CE55DCEC3686CD /* WKWebView+SyncUserAgent.h in Headers */ = {isa = PBXBuildFile; fileRef = D3C8B5DD0273D84A9407900E250DE88D /* WKWebView+SyncUserAgent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53317FA6550E9828F2A79301E0053A46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5837A79531E98DF7C9A1897946342151 /* Pods-Erefat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1903281C59DFF381EDE1DBD07610D6D /* Pods-Erefat-dummy.m */; };
 		58C20B36FD380EAFFF84C5B2E443C9FB /* JXBWKWebViewPool.h in Headers */ = {isa = PBXBuildFile; fileRef = 73076EB1D65FF87995F12B54B5E57E5B /* JXBWKWebViewPool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		600218D2482060B57B19BBEDC3EE8605 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6093D236B1AFB8DB07A6EEAF0C148120 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		627EBC8C39FC43E0591C6FAB91B212AD /* WKCallNativeMethodMessageHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E1D2D57A4567CE9525616E62143147 /* WKCallNativeMethodMessageHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62B28B3DC9A3965D5D8D918CA095BE0F /* WKAppManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C6FE475E16E81F6B93EFE9A39D373367 /* WKAppManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		65BCCBFB33B97727FE1A36D23C6A3F30 /* JXBWKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF46C9B4C2C4AE591B02B57FC0EF124 /* JXBWKWebView.m */; };
+		67785BD0DA7BC630D0508D0789D2D432 /* Pods-Erefat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1903281C59DFF381EDE1DBD07610D6D /* Pods-Erefat-dummy.m */; };
 		69BBBE447F8DF868FC647C80FC47ED2F /* WKWebView+SupportProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 261187CC26785D150375EB152AFBCF45 /* WKWebView+SupportProtocol.m */; };
-		70C15A79582833D2021B244DF10E6714 /* Pods-Erefat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61595E3B8D951167DDFA6B22A7F8BB3C /* Pods-Erefat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E6700C81EFC950D14D3EBDDAF4E48D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		76DB9C4C879ACF5B956E6FA39A0BF2B7 /* WKWebViewExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 92922D5EACC76EF53034D1BF62CBEBB3 /* WKWebViewExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7717DE21B8607621644C66CC5830022C /* JXBWKWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = C29516B79A4D1378D89477620B19A1F1 /* JXBWKWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7988F13396CF9B72CC5FD57742E2FFB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7A62A64A885595C598366C5EF1384D68 /* NSURLProtocol+WebKitSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = BABB964D094A37432B3F0C5364013386 /* NSURLProtocol+WebKitSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F3B57EE2A1326F604C9CE4713C20C8F /* JSResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 39615CAED1431DBD7F624300B5A6F17F /* JSResources.bundle */; };
+		813A79C09B32FDD7A1ED43C3714F2BAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		86CB18077230D33476917168FC759153 /* WKWebView+SupportProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C3DB28D420786D8674B5D3023A9BD1D /* WKWebView+SupportProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		897434B9422F2EABCB46DE85ABFF759C /* Pods-ErefatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E14A5B0570DB961040C9154A4C73C34 /* Pods-ErefatTests-dummy.m */; };
 		8A0689996200FA2A25DC212E211A2374 /* JXBWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E3991150C31BEA928C99717623D6BA55 /* JXBWebViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8BD41AB345C0611B459247B6CB32C869 /* WKCallNativeMethodMessageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C9704D4E6224C9E4185879120A910DBB /* WKCallNativeMethodMessageHandler.m */; };
 		8ED903E58C77FBE4AAEF72C07F558676 /* WKWebView+AOP.m in Sources */ = {isa = PBXBuildFile; fileRef = A5077848414A9E1C08ABCCD16D536873 /* WKWebView+AOP.m */; };
-		915F2B484364F6AB06D6DEE8F8F32334 /* Pods-ErefatTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E92A562012584A258CF74D5834AD9A /* Pods-ErefatTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9853C25F8B449371D8955D55D605621B /* UIProgressView+WKWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA543576AC34CD95C15D2D553F567F96 /* UIProgressView+WKWebView.m */; };
 		A479AA676746F779678AF1340B9AC7E1 /* JXBWKCustomProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AEAE30BB3137EB69653A5A7E2BCDA9 /* JXBWKCustomProtocol.m */; };
+		A74FA794443C785C3DBCE8E8B17AF64E /* Pods-ErefatTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E92A562012584A258CF74D5834AD9A /* Pods-ErefatTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A88EA6D2CCA39E39A47FA8734B5A271F /* JXBWKWebViewPool.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DB72DBE395256C7C6E80575790D5CA /* JXBWKWebViewPool.m */; };
+		A9F04D211A10A0AEC40EFD6E75229210 /* Pods-Erefat-ErefatUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 425FE703F8D5B20BFE54D0EE39FBE8D6 /* Pods-Erefat-ErefatUITests-dummy.m */; };
 		AAFFA31919CC90B34B773CBDDE52DD14 /* NSURLProtocol+WebKitSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 30D76EA61D020EE9845433826296218E /* NSURLProtocol+WebKitSupport.m */; };
 		B250DDD62E413B1BB1FCFDEC309A332F /* WKWebView+ExternalNavigationDelegates.h in Headers */ = {isa = PBXBuildFile; fileRef = 7661BC0D3C2507B8D776095858421239 /* WKWebView+ExternalNavigationDelegates.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B38D9ABF7FFB921BC5A6A17BF48DFD13 /* WKWebView+CookiesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 12DB60C97E2186D337B7CFA0485F0C95 /* WKWebView+CookiesManager.m */; };
@@ -57,21 +57,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9005F88A176F996212F8DF135D9B2611 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9830B2A3922329143C1D3B56345C80E1;
-			remoteInfo = JXBWebKit;
-		};
-		B9B450E9ECD8E8EE6F5C1F7BDC79731A /* PBXContainerItemProxy */ = {
+		08074C84ED3EA20C7E72F0DD587E8569 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 10059D8D66644E5B1EB4F5B3AD96DA2F;
 			remoteInfo = "Pods-Erefat";
 		};
-		D42A2FF237D083D48504D2F2FE54E84F /* PBXContainerItemProxy */ = {
+		D0F154D68F189D80AA77A0BE77CA01F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9830B2A3922329143C1D3B56345C80E1;
+			remoteInfo = JXBWebKit;
+		};
+		F48FFEC3BD2FE022773147C6A67234B9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -94,7 +94,6 @@
 		261187CC26785D150375EB152AFBCF45 /* WKWebView+SupportProtocol.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+SupportProtocol.m"; path = "JXBWebKit/Tools/WebViewExtension/WKWebView+SupportProtocol.m"; sourceTree = "<group>"; };
 		27BEB48DFA884673FA7955D1734CCECF /* Pods-ErefatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ErefatTests.debug.xcconfig"; sourceTree = "<group>"; };
 		30D76EA61D020EE9845433826296218E /* NSURLProtocol+WebKitSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLProtocol+WebKitSupport.m"; path = "JXBWebKit/Tools/URLProtocol/NSURLProtocol+WebKitSupport.m"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		35E1D2D57A4567CE9525616E62143147 /* WKCallNativeMethodMessageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WKCallNativeMethodMessageHandler.h; path = JXBWebKit/Tools/MessageHandler/WKCallNativeMethodMessageHandler.h; sourceTree = "<group>"; };
 		39615CAED1431DBD7F624300B5A6F17F /* JSResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = JSResources.bundle; path = JXBWebKit/JSResources.bundle; sourceTree = "<group>"; };
 		425FE703F8D5B20BFE54D0EE39FBE8D6 /* Pods-Erefat-ErefatUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Erefat-ErefatUITests-dummy.m"; sourceTree = "<group>"; };
@@ -107,6 +106,7 @@
 		6C5349986A0685134D26C476CAA25834 /* Pods-ErefatTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ErefatTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6E14A5B0570DB961040C9154A4C73C34 /* Pods-ErefatTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ErefatTests-dummy.m"; sourceTree = "<group>"; };
 		717CD5EBF64FB08637F10B942695EA44 /* Pods_ErefatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ErefatTests.framework; path = "Pods-ErefatTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		73076EB1D65FF87995F12B54B5E57E5B /* JXBWKWebViewPool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JXBWKWebViewPool.h; path = JXBWebKit/Tools/ReusePool/JXBWKWebViewPool.h; sourceTree = "<group>"; };
 		76297CDD9C4A3F1AD03C0933F7891D97 /* Pods-Erefat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Erefat.debug.xcconfig"; sourceTree = "<group>"; };
 		7661BC0D3C2507B8D776095858421239 /* WKWebView+ExternalNavigationDelegates.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WKWebView+ExternalNavigationDelegates.h"; path = "JXBWebKit/Tools/WebViewExtension/WKWebView+ExternalNavigationDelegates.h"; sourceTree = "<group>"; };
@@ -158,19 +158,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		24C213DCAF32CE29FD5E4D1F294C3C84 /* Frameworks */ = {
+		069BCE88A87D4D37E573B7CE762F5850 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53317FA6550E9828F2A79301E0053A46 /* Foundation.framework in Frameworks */,
+				813A79C09B32FDD7A1ED43C3714F2BAE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6E6BA63CE6DD2EC3B08963C128BE92DF /* Frameworks */ = {
+		678978A8641E56574E6D84FBB0567BE8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				600218D2482060B57B19BBEDC3EE8605 /* Foundation.framework in Frameworks */,
+				7988F13396CF9B72CC5FD57742E2FFB3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71CFEFEC5CE1F4343A49AECAB60A4772 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6093D236B1AFB8DB07A6EEAF0C148120 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,15 +186,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CC309301B105B45E24B770DABEDC6E6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C11BD67A8E8EAC9EC5C87A70CEC5FCF7 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1C6DE05BFB3507EF350DBDAD40FEE40F /* Foundation.framework in Frameworks */,
+				6E6700C81EFC950D14D3EBDDAF4E48D7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +239,14 @@
 			);
 			name = "Pods-Erefat-ErefatUITests";
 			path = "Target Support Files/Pods-Erefat-ErefatUITests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		596FB3CA6BB85B3F5F2193BF9BFF3D10 /* Pods-Erefat */ = {
@@ -323,14 +331,6 @@
 			path = JXBWebKit;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		C8C1C7C4400EE22A6FF610E18CEB2801 /* Pods-ErefatTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -361,7 +361,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -369,19 +369,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		575C67FED7EEEE53350E7B3C7331CAC1 /* Headers */ = {
+		5083B0D745B9530B481826AD9395D555 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70C15A79582833D2021B244DF10E6714 /* Pods-Erefat-umbrella.h in Headers */,
+				43BDBEF3468061E923D5C00ED1DCA49C /* Pods-Erefat-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91319E371F9BA414249313A6EF311BA2 /* Headers */ = {
+		50B972ADACB314693498160062CDBEB3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				915F2B484364F6AB06D6DEE8F8F32334 /* Pods-ErefatTests-umbrella.h in Headers */,
+				A74FA794443C785C3DBCE8E8B17AF64E /* Pods-ErefatTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,11 +411,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCE5B10B8090B8AB73C9B57EE432295B /* Headers */ = {
+		E6C17BACBC81E19D333C882858B768BE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E24C8CE88459C231EC63CDAEA20F881 /* Pods-Erefat-ErefatUITests-umbrella.h in Headers */,
+				3250D24CFB7C10F2CEDF1AEDE20C52BB /* Pods-Erefat-ErefatUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,17 +424,17 @@
 /* Begin PBXNativeTarget section */
 		0504CFB53C3E27704A10951DA79C2B13 /* Pods-ErefatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D12A4B03CC78088B909998355F99BCA /* Build configuration list for PBXNativeTarget "Pods-ErefatTests" */;
+			buildConfigurationList = 0287CC9D516EBCB4A96F71B28A3332DE /* Build configuration list for PBXNativeTarget "Pods-ErefatTests" */;
 			buildPhases = (
-				91319E371F9BA414249313A6EF311BA2 /* Headers */,
-				89371E674A3601D0A925A38CEB21061A /* Sources */,
-				C11BD67A8E8EAC9EC5C87A70CEC5FCF7 /* Frameworks */,
-				F3F5B15B37F67D6C273984429AAFCF55 /* Resources */,
+				50B972ADACB314693498160062CDBEB3 /* Headers */,
+				A9BEDAABA06EB14A094B25081A4A50F2 /* Sources */,
+				069BCE88A87D4D37E573B7CE762F5850 /* Frameworks */,
+				0CD92776AC6DF8C929E48CCE1A75ABEB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9F416D444126EB3C3529CB3E954859B0 /* PBXTargetDependency */,
+				E923A1EF5BD5CAA2AEF60F188E1972AA /* PBXTargetDependency */,
 			);
 			name = "Pods-ErefatTests";
 			productName = "Pods-ErefatTests";
@@ -443,17 +443,17 @@
 		};
 		10059D8D66644E5B1EB4F5B3AD96DA2F /* Pods-Erefat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6298830272438592A43101F9051C600F /* Build configuration list for PBXNativeTarget "Pods-Erefat" */;
+			buildConfigurationList = 0D0CF23D9B5AEDD0F02562F0EF785D97 /* Build configuration list for PBXNativeTarget "Pods-Erefat" */;
 			buildPhases = (
-				575C67FED7EEEE53350E7B3C7331CAC1 /* Headers */,
-				8BC5200E281D1BB7D6DEB037A09F8FF0 /* Sources */,
-				6E6BA63CE6DD2EC3B08963C128BE92DF /* Frameworks */,
-				D624384036DBF131CFDE3ABF290D3861 /* Resources */,
+				5083B0D745B9530B481826AD9395D555 /* Headers */,
+				AFA7F09ABC63B5C1F05878024485BE33 /* Sources */,
+				678978A8641E56574E6D84FBB0567BE8 /* Frameworks */,
+				09AA8FB491F35FDA9B54B96FA7B47B4D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0C531E03D0202ED132E4D922F827B808 /* PBXTargetDependency */,
+				20F7EE3E746D967E3C6233D9B0EE9BBC /* PBXTargetDependency */,
 			);
 			name = "Pods-Erefat";
 			productName = "Pods-Erefat";
@@ -462,17 +462,17 @@
 		};
 		668754A4C20F69AFC40E0F95BC32646C /* Pods-Erefat-ErefatUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B3D81A7B27B6C587D49AFC3316C1814C /* Build configuration list for PBXNativeTarget "Pods-Erefat-ErefatUITests" */;
+			buildConfigurationList = 2B0BB6841B66FAF184DF5A1545030C3A /* Build configuration list for PBXNativeTarget "Pods-Erefat-ErefatUITests" */;
 			buildPhases = (
-				FCE5B10B8090B8AB73C9B57EE432295B /* Headers */,
-				472A8C3D54FED1FFB78ED1FB19DF7B12 /* Sources */,
-				24C213DCAF32CE29FD5E4D1F294C3C84 /* Frameworks */,
-				E78B2EC3E72218330A5CD7DFB6EEEED0 /* Resources */,
+				E6C17BACBC81E19D333C882858B768BE /* Headers */,
+				4082C0B9E4DB57AB31859A075B9DA112 /* Sources */,
+				71CFEFEC5CE1F4343A49AECAB60A4772 /* Frameworks */,
+				81FFC8397DC8FAA0BDCCD2C4BE5EAF87 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DD877C8B515F6E790A7E18D99AC51973 /* PBXTargetDependency */,
+				F588DDB9A70ADD67D8F17C385D154239 /* PBXTargetDependency */,
 			);
 			name = "Pods-Erefat-ErefatUITests";
 			productName = "Pods-Erefat-ErefatUITests";
@@ -507,7 +507,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -528,21 +528,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D624384036DBF131CFDE3ABF290D3861 /* Resources */ = {
+		09AA8FB491F35FDA9B54B96FA7B47B4D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E78B2EC3E72218330A5CD7DFB6EEEED0 /* Resources */ = {
+		0CD92776AC6DF8C929E48CCE1A75ABEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F3F5B15B37F67D6C273984429AAFCF55 /* Resources */ = {
+		81FFC8397DC8FAA0BDCCD2C4BE5EAF87 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -560,11 +560,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		472A8C3D54FED1FFB78ED1FB19DF7B12 /* Sources */ = {
+		4082C0B9E4DB57AB31859A075B9DA112 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43C782F1A4283E6280464C49929978EF /* Pods-Erefat-ErefatUITests-dummy.m in Sources */,
+				A9F04D211A10A0AEC40EFD6E75229210 /* Pods-Erefat-ErefatUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,167 +592,50 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89371E674A3601D0A925A38CEB21061A /* Sources */ = {
+		A9BEDAABA06EB14A094B25081A4A50F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				897434B9422F2EABCB46DE85ABFF759C /* Pods-ErefatTests-dummy.m in Sources */,
+				38BFFBC68E93C970BBFE586F4D49D3DE /* Pods-ErefatTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8BC5200E281D1BB7D6DEB037A09F8FF0 /* Sources */ = {
+		AFA7F09ABC63B5C1F05878024485BE33 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5837A79531E98DF7C9A1897946342151 /* Pods-Erefat-dummy.m in Sources */,
+				67785BD0DA7BC630D0508D0789D2D432 /* Pods-Erefat-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0C531E03D0202ED132E4D922F827B808 /* PBXTargetDependency */ = {
+		20F7EE3E746D967E3C6233D9B0EE9BBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JXBWebKit;
 			target = 9830B2A3922329143C1D3B56345C80E1 /* JXBWebKit */;
-			targetProxy = 9005F88A176F996212F8DF135D9B2611 /* PBXContainerItemProxy */;
+			targetProxy = F48FFEC3BD2FE022773147C6A67234B9 /* PBXContainerItemProxy */;
 		};
-		9F416D444126EB3C3529CB3E954859B0 /* PBXTargetDependency */ = {
+		E923A1EF5BD5CAA2AEF60F188E1972AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Erefat";
 			target = 10059D8D66644E5B1EB4F5B3AD96DA2F /* Pods-Erefat */;
-			targetProxy = B9B450E9ECD8E8EE6F5C1F7BDC79731A /* PBXContainerItemProxy */;
+			targetProxy = 08074C84ED3EA20C7E72F0DD587E8569 /* PBXContainerItemProxy */;
 		};
-		DD877C8B515F6E790A7E18D99AC51973 /* PBXTargetDependency */ = {
+		F588DDB9A70ADD67D8F17C385D154239 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JXBWebKit;
 			target = 9830B2A3922329143C1D3B56345C80E1 /* JXBWebKit */;
-			targetProxy = D42A2FF237D083D48504D2F2FE54E84F /* PBXContainerItemProxy */;
+			targetProxy = D0F154D68F189D80AA77A0BE77CA01F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		39AC78CAE8A6FE5C0F418283FD667423 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27BEB48DFA884673FA7955D1734CCECF /* Pods-ErefatTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ErefatTests/Pods-ErefatTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ErefatTests/Pods-ErefatTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3DB7D51AFFB35AADF15A56655E6EAF1D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A73632A42E13E90C49841344461DFE6 /* Pods-Erefat.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Erefat/Pods-Erefat-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Erefat/Pods-Erefat.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		525AF718578CAB7057E3ADA4E039E493 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1511DB9A0A83FA525780AC710D3C178F /* Pods-ErefatTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ErefatTests/Pods-ErefatTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ErefatTests/Pods-ErefatTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5F59B59A0BE2AB189C3EE08B8DBDA693 /* Debug */ = {
+		02127C53D7C0E01A70E0A8ACDE2F00A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B93042058BC52251AA87591EC93D390F /* JXBWebKit.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -782,13 +665,121 @@
 			};
 			name = Debug;
 		};
-		A0F3F13098AF474D13269E76BE74299C /* Debug */ = {
+		0EA79B00C81E457E32A8F98F00642629 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52004D9E1E1E06E055CC8B42F59C9769 /* JXBWebKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JXBWebKit/JXBWebKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JXBWebKit/JXBWebKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JXBWebKit/JXBWebKit.modulemap";
+				PRODUCT_MODULE_NAME = JXBWebKit;
+				PRODUCT_NAME = JXBWebKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		16C4770D4BB664393D0827453BA53938 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BEB48DFA884673FA7955D1734CCECF /* Pods-ErefatTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ErefatTests/Pods-ErefatTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ErefatTests/Pods-ErefatTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2C8E7D950BAEBD0F2CD7B0B5D2EBECD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962E6F941ADCD29ABA6CE44EA80C1478 /* Pods-Erefat-ErefatUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Erefat-ErefatUITests/Pods-Erefat-ErefatUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Erefat-ErefatUITests/Pods-Erefat-ErefatUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E5DD9ABFEE5020399D50F47FA0E34F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 24FF04ADA0034C1EB6D10E0A1D7B555C /* Pods-Erefat-ErefatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -820,48 +811,12 @@
 			};
 			name = Debug;
 		};
-		C9636185FB86CBB6F1EE6B56522EB625 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52004D9E1E1E06E055CC8B42F59C9769 /* JXBWebKit.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JXBWebKit/JXBWebKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JXBWebKit/JXBWebKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/JXBWebKit/JXBWebKit.modulemap";
-				PRODUCT_MODULE_NAME = JXBWebKit;
-				PRODUCT_NAME = JXBWebKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D73965824FD7E84A424F1E3F07ACAED6 /* Debug */ = {
+		9654A6C2CB145C162E0F56BA908B65A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76297CDD9C4A3F1AD03C0933F7891D97 /* Pods-Erefat.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -893,10 +848,11 @@
 			};
 			name = Debug;
 		};
-		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+		A445D08D964FE9C6C05CEE2B0A948973 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -919,6 +875,107 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B671F9DBDCCD4ED47995BF81DC8B7D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A73632A42E13E90C49841344461DFE6 /* Pods-Erefat.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Erefat/Pods-Erefat-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Erefat/Pods-Erefat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB7376794D773187B6D048F04E70CE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -957,13 +1014,12 @@
 			};
 			name = Debug;
 		};
-		E3701D561515840D55E4FC9F3FC1AA32 /* Release */ = {
+		FE495CCDD6BC1028B3E6DCC12A8C9EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 962E6F941ADCD29ABA6CE44EA80C1478 /* Pods-Erefat-ErefatUITests.release.xcconfig */;
+			baseConfigurationReference = 1511DB9A0A83FA525780AC710D3C178F /* Pods-ErefatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -972,7 +1028,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Erefat-ErefatUITests/Pods-Erefat-ErefatUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ErefatTests/Pods-ErefatTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -981,7 +1037,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Erefat-ErefatUITests/Pods-Erefat-ErefatUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-ErefatTests/Pods-ErefatTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -996,101 +1052,41 @@
 			};
 			name = Release;
 		};
-		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0287CC9D516EBCB4A96F71B28A3332DE /* Build configuration list for PBXNativeTarget "Pods-ErefatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C4770D4BB664393D0827453BA53938 /* Debug */,
+				FE495CCDD6BC1028B3E6DCC12A8C9EA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D0CF23D9B5AEDD0F02562F0EF785D97 /* Build configuration list for PBXNativeTarget "Pods-Erefat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9654A6C2CB145C162E0F56BA908B65A8 /* Debug */,
+				B671F9DBDCCD4ED47995BF81DC8B7D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B0BB6841B66FAF184DF5A1545030C3A /* Build configuration list for PBXNativeTarget "Pods-Erefat-ErefatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E5DD9ABFEE5020399D50F47FA0E34F2 /* Debug */,
+				2C8E7D950BAEBD0F2CD7B0B5D2EBECD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
-				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		5D12A4B03CC78088B909998355F99BCA /* Build configuration list for PBXNativeTarget "Pods-ErefatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				39AC78CAE8A6FE5C0F418283FD667423 /* Debug */,
-				525AF718578CAB7057E3ADA4E039E493 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6298830272438592A43101F9051C600F /* Build configuration list for PBXNativeTarget "Pods-Erefat" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D73965824FD7E84A424F1E3F07ACAED6 /* Debug */,
-				3DB7D51AFFB35AADF15A56655E6EAF1D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B3D81A7B27B6C587D49AFC3316C1814C /* Build configuration list for PBXNativeTarget "Pods-Erefat-ErefatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A0F3F13098AF474D13269E76BE74299C /* Debug */,
-				E3701D561515840D55E4FC9F3FC1AA32 /* Release */,
+				EB7376794D773187B6D048F04E70CE39 /* Debug */,
+				A445D08D964FE9C6C05CEE2B0A948973 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1098,8 +1094,8 @@
 		DC0CCF79472A112924DCF3BAC6BE4861 /* Build configuration list for PBXNativeTarget "JXBWebKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F59B59A0BE2AB189C3EE08B8DBDA693 /* Debug */,
-				C9636185FB86CBB6F1EE6B56522EB625 /* Release */,
+				02127C53D7C0E01A70E0A8ACDE2F00A4 /* Debug */,
+				0EA79B00C81E457E32A8F98F00642629 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

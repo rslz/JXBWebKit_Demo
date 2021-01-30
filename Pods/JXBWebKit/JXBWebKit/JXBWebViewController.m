@@ -23,6 +23,7 @@ static NSString *POSTRequest = @"POST";
 @property (nonatomic, strong) UIProgressView         *progressView;
 @property (nonatomic, assign) BOOL                   checkUrlCanOpen;
 @property (nonatomic, assign) BOOL                   terminate;
+@property (nonatomic, assign) BOOL                   appeared;
 @property (nonatomic, assign) JXBWebViewLoadType     loadType;
 @end
 
@@ -70,6 +71,7 @@ static NSString *POSTRequest = @"POST";
         _webView = [[JXBWKWebViewPool sharedInstance] getReusedWebViewForHolder:self];
         [_webView useExternalNavigationDelegate];
         [_webView setMainNavigationDelegate:self];
+        _webView.allowsBackForwardNavigationGestures = _allowsBFNavigationGesture;
         _webView.UIDelegate = self;
     }
     return self;
@@ -96,20 +98,11 @@ static NSString *POSTRequest = @"POST";
 
 #pragma mark - UI & Fetch Data
 - (void)sutupUI {
-    self.view.backgroundColor = [UIColor whiteColor];
-    
-    if (_isRootController) {
-        self.navigationItem.leftBarButtonItems = nil;
-    } else {
-        self.navigationItem.leftBarButtonItem = self.backItem;
-    }
-    
-    //WebView
-    _webView.allowsBackForwardNavigationGestures = _allowsBFNavigationGesture;
-    if (_showProgressView) {
-        [_webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
-    }
+    _appeared = YES;
+    self.navigationItem.leftBarButtonItem = _isRootController ? nil : self.backItem;
+    if (_showProgressView) [_webView addObserver:self forKeyPath:@"estimatedProgress" options:NSKeyValueObservingOptionNew context:nil];
     [_webView addObserver:self forKeyPath:@"title" options:NSKeyValueObservingOptionNew context:NULL];
+    self.view.backgroundColor = [UIColor whiteColor];
     [self.view addSubview:_webView];
     [self registerSupportProtocolWithHTTP:NO schemes:@[@"post", kWKWebViewReuseScheme] protocolClass:[JXBWKCustomProtocol class]];
 }
@@ -221,10 +214,7 @@ static NSString *POSTRequest = @"POST";
 //返回item
 - (UIBarButtonItem *)backItem {
     if (_backItem) return _backItem;
-    //NSString *backImgPath = [_resourcePath stringByAppendingString:@"/webView_back"];
-    NSString *bundlePath = _backImagePath ?: [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"JSResources.bundle"];
-    NSString *backImgPath = [bundlePath stringByAppendingPathComponent:@"webView_back"];
-    UIImage *backImage = [UIImage imageNamed:backImgPath];
+    UIImage *backImage = [self _readImageWithName:@"webView_back"];
     _backItem = [[UIBarButtonItem alloc] initWithImage:backImage
                                                  style:UIBarButtonItemStylePlain
                                                 target:self
@@ -235,10 +225,7 @@ static NSString *POSTRequest = @"POST";
 //关闭item
 - (UIBarButtonItem *)closeItem {
     if (_closeItem) return _closeItem;
-    //NSString *closeImgPath = [_resourcePath stringByAppendingString:@"/webView_close"];
-    NSString *bundlePath = _closeImagePath ?: [[[NSBundle mainBundle] resourcePath] stringByAppendingPathComponent:@"JSResources.bundle"];
-    NSString *closeImgPath = [bundlePath stringByAppendingPathComponent:@"webView_close"];
-    UIImage *closeImage = [UIImage imageNamed:closeImgPath];
+    UIImage *closeImage = [self _readImageWithName:@"webView_close"];
     _closeItem = [[UIBarButtonItem alloc] initWithImage:closeImage
                                                   style:UIBarButtonItemStylePlain
                                                  target:self
@@ -246,6 +233,12 @@ static NSString *POSTRequest = @"POST";
     return _closeItem;
 }
 
+- (UIImage *)_readImageWithName:(NSString *)imageNamed {
+    NSBundle *bundle = [NSBundle bundleForClass:[JXBWebViewController class]];
+    NSURL *URL = [bundle URLForResource:@"JSResources" withExtension:@"bundle"];
+    NSBundle *curBundle = [NSBundle bundleWithURL:URL];
+    return [UIImage imageNamed:imageNamed inBundle:curBundle compatibleWithTraitCollection:nil];
+}
 
 - (void)backItemClick:(UIBarButtonItem *)sender {
     if ([self.webView canGoBack]) {
@@ -538,11 +531,11 @@ static NSString *POSTRequest = @"POST";
 }
 
 - (void)dealloc {
-    [[NSNotificationCenter defaultCenter] removeObserver:self];
-    if (_showProgressView) {
-        [_webView removeObserver:self forKeyPath:@"estimatedProgress"];
+    if (_appeared) {
+        if (_showProgressView) [_webView removeObserver:self forKeyPath:@"estimatedProgress"];
+        [_webView removeObserver:self forKeyPath:@"title"];
     }
-    [_webView removeObserver:self forKeyPath:@"title"];
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
     if (!_terminate) {
         [[JXBWKWebViewPool sharedInstance] recycleReusedWebView:_webView];
     }
